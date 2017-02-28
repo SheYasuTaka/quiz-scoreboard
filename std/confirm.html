@@ -1,0 +1,88 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>pts</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script type="text/javascript" src="../common.js"></script>
+	<script type="text/javascript" src="../stdconfirm.js"></script>
+	<script type="text/javascript" src="./valchecker.js"></script>
+</head>
+<body>
+	<form>
+		人数<br>
+		<input type=text id="nump"><br><br>
+		ルール<br>
+		<span id="ruleselector">
+			<span>n○m×</span>
+			<span>n○m休</span>
+			<span>連付n○m休</span>
+			<span>n by n</span>
+			<span>SquareN</span>
+			<span>n divide n</span>
+			<span>n by n Special</span>
+		</span><br><br>
+		詳細<br>
+		<div id="ruledecider">
+			<table id="marubatu">
+				<tr>
+					<td>マル数</td>
+					<td><input type=text></td>
+				</tr>
+				<tr>
+					<td>バツ数</td>
+					<td><input type=text></td>
+				</tr>
+			</table>
+			<table id="maruyasu">
+				<tr>
+					<td>マル数</td>
+					<td><input type=text></td>
+				</tr>
+				<tr>
+					<td>休み数</td>
+					<td><input type=text></td>
+				</tr>
+			</table>
+			<table id="ren-maruyasu">
+				<tr>
+					<td>マル数</td>
+					<td><input type=text></td>
+				</tr>
+				<tr>
+					<td>バツ数</td>
+					<td><input type=text></td>
+				</tr>
+			</table>
+			<table id="nbyn">
+				<tr>
+					<td>n</td>
+					<td><input type=text></td>
+				</tr>
+			</table>
+			<table id="square">
+				<tr>
+					<td>積ノルマ</td>
+					<td><input type=text></td>
+				</tr>
+				<tr>
+					<td>バツ数</td>
+					<td><input type=text></td>
+				</tr>
+			</table>
+			<table id="divide">
+				<tr>
+					<td>n</td>
+					<td><input type=text></td>
+				</tr>
+			</table>
+			<table id="nbyn-spec">
+				<tr>
+					<td>n</td>
+					<td><input type=text></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<input type=button onclick="setup()" value="START">
+</body>
+</html>

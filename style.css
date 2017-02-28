@@ -1,0 +1,113 @@
+
+body {
+	font-family: "HG明朝E";
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	transition: background .3s;
+}
+
+table {
+	margin: 5px auto;
+	border: 0;
+}
+
+table tr {
+	padding: 0;
+	text-align: center;
+}
+
+table td {
+	padding: 0;
+	border: 2px solid white;
+}
+
+input {
+	font-family: "MyricaM M", "Myrica M", Meiryo;
+	text-align: center;
+}
+
+#ruleselector span {
+	font-size: 24px;
+	cursor: pointer;
+	margin: 4px;
+	border: 2px solid white;
+	background-color: #444;
+}
+
+#ruledecider {
+	border: 1px solid white;
+	width: 50%;
+	min-height: 256px;
+}
+
+#ruledecider table {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#ruledecider table tbody {
+	width: 100%;
+}
+
+#ruledecider table td {
+	border-color: transparent;
+}
+
+div#rule {
+	font-size: 96px;
+}
+
+table#board {
+	margin: 0 auto;
+	width: 100%;
+}
+
+table#board tbody {
+	width: 100%;
+}
+
+table#board td {
+	border: solid 1px white;
+	font-size: 48px;
+}
+
+form div {
+	margin: 0 auto;
+}
+
+table tr input[type=text] {
+	padding: 0;
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
+
+table#board tr input[type=text] {
+	font-size: 48px;
+	font-style: bold;
+}
+
+table#board tr input[type=button] {
+	width: 50%;
+	font-size: 36px;
+}
+
+input[type=button]#through-btn {
+	width: 100%;
+	font-size: 36px;
+}
+
+div#problem-id {
+	width: 100%;
+	font-size: 36px;
+}
+
+
+
+
+
+
+
+
